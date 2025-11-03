@@ -1,0 +1,38 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fde4ec;
+  text-align: center;
+  color: #7a1c57;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ffb6c1;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7a1c57;
+  font-weight: bold;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: #ff4081;
+}
+
+/* 🌸 গ্যালারির ছবিগুলোর জন্য স্টাইল */
+div img {
+  border-radius: 10px;
+  margin: 10px;
+  width: 200px;
+  height: auto;
+  box-shadow: 0 0 10px #ffb6c1;
+  transition: transform 0.3s;
+}
+
+div img:hover {
+  transform: scale(1.1);
+}
